@@ -1,7 +1,7 @@
 {
-  "name": "stikerinbot",
-  "version": "1.1.2",
-  "description": "WhatsApp Bot Ringan",
+  "name": "anfebn",
+  "version": "1.1.0",
+  "description": "WhatsApp Bot",
   "main": "index.js",
   "directories": {
     "lib": "lib",
@@ -9,22 +9,22 @@
     "plugins": "plugins"
   },
   "scripts": {
-    "start": "node index.js --self",
+    "start": "node index.js",
     "test": "node test.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ariffb25/stikerinbot.git"
+    "url": "git+https://github.com/anfeb/afn.git"
   },
   "keywords": [
     "whatsapp-bot"
   ],
-  "author": "Ariffb",
+  "author": "anfebn",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ariffb25/stikerinbot/issues"
+    "url": "https://github.com/anfeb/afn/issues"
   },
-  "homepage": "https://github.com/ariffb25/stikerinbot",
+  "homepage": "https://github.com/anfeb/afn",
   "dependencies": {
     "@adiwajshing/baileys": "^3.5.2",
     "awesome-phonenumber": "^2.54.0",
