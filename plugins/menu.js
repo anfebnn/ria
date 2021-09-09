@@ -20,8 +20,8 @@ const defaultMenu = {
 │
 ├ Uptime: *%uptime (%muptime)*
 ├ Database: %rtotalreg dari %totalreg
-├ Github:
-├ %github
+├ *Dont Forget Follow IG*
+├ https://instagram.com/anfebn
 └────
 %readmore`.trimStart(),
   header: '┌─〔 %category 〕',
