@@ -33,6 +33,7 @@ ${'```%npmdesc```'}
 `,
 }
 let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
+  let name = conn.getName(m.sender)
   let tags
   let teks = `${args[0]}`.toLowerCase()
   let arrayMenu = ['all', 'game', 'xp', 'stiker', 'kerangajaib', 'quotes', 'admin', 'grup', 'premium', 'internet', 'anonymous', 'nulis', 'downloader', 'tools', 'fun', 'database', 'quran', 'audio', 'jadibot', 'info', 'tanpakategori', 'owner']
@@ -188,7 +189,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     if (teks == '404') {
       return conn.relayWAMessage(conn.prepareMessageFromContent(m.chat, {
         "listMessage": {
-          "title": `${ucapan()}, ${name}`.trim(),
+          "title": `${ucapan()}\nKak, ${name}\n\nDont Forget Follow\nhttps://instagram.com/anfebn\n\nBerikut adalah Daftar Menu\n\nBila Menu Tidak Bisa Di Klik\nKetik .? All`,
           "description": "@anfebn",
           "buttonText": "Klik Disini",
           "listType": "SINGLE_SELECT",
